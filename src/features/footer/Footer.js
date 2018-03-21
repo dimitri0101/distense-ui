@@ -6,7 +6,7 @@ import ConnectedNetwork from './ConnectedNetwork'
 
 import { Container, Menu, Segment } from 'semantic-ui-react'
 
-import Status from '../status/Status'
+import TxStatusContainer from '../tx-status/components/TxStatusContainer'
 
 export default () => (
   <Segment vertical style={{ margin: '3em 0em 0em', padding: '5em 0em' }}>
@@ -70,7 +70,7 @@ export default () => (
         >
           Event Feed
         </Menu.Item>
-        <Status />
+        <TxStatusContainer />
         <DIDOwnership />
         <ConnectedNetwork />
         <EthereumAuthenticated />

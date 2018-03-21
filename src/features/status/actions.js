@@ -10,7 +10,7 @@ export const updateStatusMessage = text => dispatch => {
 
   setTimeout(() => {
     dispatch(setDefaultStatus())
-  }, 2000)
+  }, 1500)
 }
 
 export const setDefaultStatus = () => ({

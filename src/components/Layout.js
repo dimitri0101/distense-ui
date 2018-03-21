@@ -67,6 +67,17 @@ export default ({ children }) => (
       .distense-green {
         color: rgb(13, 246, 121);
       }
+
+      .tx-pending {
+        text-decoration: underline !important;
+        cursor: pointer;
+      }
+      .tx-new {
+        color: rgb(13, 246, 121);
+      }
+      .inline-block {
+        display: inline-block;
+      }
     `}</style>
   </div>
 )
